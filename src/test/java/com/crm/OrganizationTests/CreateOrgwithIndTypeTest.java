@@ -65,6 +65,7 @@ public class CreateOrgwithIndTypeTest extends BaseClass
 		 Reporter.log(actOrgHeader+"org is created", true);
 		
 		
+		 
 		
 		}
 
