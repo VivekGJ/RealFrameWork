@@ -12,5 +12,6 @@ public interface IPathConstants
 	String dbURL="jdbc:mysql://localhost:3306/students";
 	String dbUsername="root";
 	String dbPassword="root";
+	
 
 }

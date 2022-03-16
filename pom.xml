@@ -3,6 +3,7 @@
   <groupId>com.crm</groupId>
   <artifactId>ComCastSeleniumFramework-SDET30</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+
 <dependencies>
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
@@ -13,7 +14,7 @@
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
     <version>7.4.0</version>
-    <scope>test</scope>
+    <scope>compile</scope>
 </dependency>
 <dependency>
     <groupId>mysql</groupId>
@@ -34,6 +35,11 @@
     <groupId>io.github.bonigarcia</groupId>
     <artifactId>webdrivermanager</artifactId>
     <version>3.8.1</version>
+</dependency>
+<dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>5.0.9</version>
 </dependency>
 </dependencies>
 <profiles>

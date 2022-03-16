@@ -276,14 +276,17 @@ public class WebDriverUtility
     * This method will take screeshot and store it in a folder called as SacreeShot
     * @param driver
     * @param screenShotName
+ * @return 
     * @throws Throwable
     */
-   public void getScreenShot(WebDriver driver, String screenShotName) throws Throwable
+   public String getScreenShot(WebDriver driver, String screenShotName) throws Throwable
    {
 	   TakesScreenshot ts= (TakesScreenshot) driver;
 	   File src = ts.getScreenshotAs(OutputType.FILE);
-	   File dst = new File("./Screenshot/"+screenShotName+".png");
+	   String path = "./Screenshot/"+screenShotName+".png";
+	   File dst = new File(path);
 	   Files.copy(src, dst);
+	   return path;
 	   
 	   
    }
