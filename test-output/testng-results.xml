@@ -29,37 +29,40 @@
       <![CDATA[====Database close sucessful=====]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-03-16T17:13:45 IST" name="Suite" finished-at="2022-03-16T17:18:32 IST" duration-ms="287403">
+  <suite started-at="2022-03-17T11:46:22 IST" name="Suite" finished-at="2022-03-17T11:48:11 IST" duration-ms="109743">
     <groups>
+      <group name="regressionSuite">
+        <method signature="CreateContactWithLeadSourceTest.createContactWithLeadSourceTest()[pri:0, instance:com.crm.ContactsTest.CreateContactWithLeadSourceTest@5acf93bb]" name="createContactWithLeadSourceTest" class="com.crm.ContactsTest.CreateContactWithLeadSourceTest"/>
+      </group> <!-- regressionSuite -->
     </groups>
-    <test started-at="2022-03-16T17:13:45 IST" name="Test" finished-at="2022-03-16T17:18:32 IST" duration-ms="287403">
+    <test started-at="2022-03-17T11:46:22 IST" name="Test" finished-at="2022-03-17T11:48:11 IST" duration-ms="109743">
       <class name="com.crm.ContactTestcaseTest.CreateContactWithoutMandatoryTest">
-        <test-method is-config="true" signature="connectDataBase()[pri:0, instance:com.crm.ContactTestcaseTest.CreateContactWithoutMandatoryTest@6283d8b8]" started-at="2022-03-16T17:13:45 IST" name="connectDataBase" finished-at="2022-03-16T17:13:45 IST" duration-ms="20" status="PASS">
+        <test-method is-config="true" signature="connectDataBase()[pri:0, instance:com.crm.ContactTestcaseTest.CreateContactWithoutMandatoryTest@6283d8b8]" started-at="2022-03-17T11:46:22 IST" name="connectDataBase" finished-at="2022-03-17T11:46:22 IST" duration-ms="22" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[====db conncetion sucessful====]]>
             </line>
           </reporter-output>
         </test-method> <!-- connectDataBase -->
-        <test-method is-config="true" signature="launchTheBrowser()[pri:0, instance:com.crm.ContactTestcaseTest.CreateContactWithoutMandatoryTest@6283d8b8]" started-at="2022-03-16T17:13:50 IST" name="launchTheBrowser" finished-at="2022-03-16T17:15:11 IST" duration-ms="80260" status="PASS">
+        <test-method is-config="true" signature="launchTheBrowser()[pri:0, instance:com.crm.ContactTestcaseTest.CreateContactWithoutMandatoryTest@6283d8b8]" started-at="2022-03-17T11:46:23 IST" name="launchTheBrowser" finished-at="2022-03-17T11:46:44 IST" duration-ms="20777" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[====Browser launch sucessful=====]]>
             </line>
           </reporter-output>
         </test-method> <!-- launchTheBrowser -->
-        <test-method is-config="true" signature="login()[pri:0, instance:com.crm.ContactTestcaseTest.CreateContactWithoutMandatoryTest@6283d8b8]" started-at="2022-03-16T17:15:11 IST" name="login" finished-at="2022-03-16T17:16:13 IST" duration-ms="62231" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:com.crm.ContactTestcaseTest.CreateContactWithoutMandatoryTest@6283d8b8]" started-at="2022-03-17T11:46:44 IST" name="login" finished-at="2022-03-17T11:46:59 IST" duration-ms="14640" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[====Login sucessful=====]]>
             </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="createContactWithoutMandatoryTest()[pri:0, instance:com.crm.ContactTestcaseTest.CreateContactWithoutMandatoryTest@6283d8b8]" started-at="2022-03-16T17:16:13 IST" name="createContactWithoutMandatoryTest" finished-at="2022-03-16T17:17:11 IST" duration-ms="58303" status="PASS">
+        <test-method signature="createContactWithoutMandatoryTest()[pri:0, instance:com.crm.ContactTestcaseTest.CreateContactWithoutMandatoryTest@6283d8b8]" started-at="2022-03-17T11:46:59 IST" name="createContactWithoutMandatoryTest" finished-at="2022-03-17T11:47:32 IST" duration-ms="33458" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createContactWithoutMandatoryTest -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.crm.ContactTestcaseTest.CreateContactWithoutMandatoryTest@6283d8b8]" started-at="2022-03-16T17:17:11 IST" name="logout" finished-at="2022-03-16T17:17:11 IST" duration-ms="78" status="FAIL">
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.crm.ContactTestcaseTest.CreateContactWithoutMandatoryTest@6283d8b8]" started-at="2022-03-17T11:47:32 IST" name="logout" finished-at="2022-03-17T11:47:32 IST" duration-ms="113" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
               <![CDATA[Session ID is null. Using WebDriver after calling quit()?
@@ -120,11 +123,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.ContactTestcaseTest.CreateContactWithoutMandatoryTest@6283d8b8]" started-at="2022-03-16T17:17:11 IST" name="closeBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1647431231841" status="SKIP">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.ContactTestcaseTest.CreateContactWithoutMandatoryTest@6283d8b8]" started-at="2022-03-17T11:47:32 IST" name="closeBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1647497852621" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="closeDb()[pri:0, instance:com.crm.ContactTestcaseTest.CreateContactWithoutMandatoryTest@6283d8b8]" started-at="2022-03-16T17:18:36 IST" name="closeDb" finished-at="2022-03-16T17:18:36 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="closeDb()[pri:0, instance:com.crm.ContactTestcaseTest.CreateContactWithoutMandatoryTest@6283d8b8]" started-at="2022-03-17T11:48:13 IST" name="closeDb" finished-at="2022-03-17T11:48:13 IST" duration-ms="5" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[====Database close sucessful=====]]>
@@ -133,21 +136,21 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- closeDb -->
       </class> <!-- com.crm.ContactTestcaseTest.CreateContactWithoutMandatoryTest -->
       <class name="com.crm.ContactsTest.CreateContactWithLeadSourceTest">
-        <test-method is-config="true" signature="launchTheBrowser()[pri:0, instance:com.crm.ContactsTest.CreateContactWithLeadSourceTest@5acf93bb]" started-at="2022-03-16T17:17:11 IST" name="launchTheBrowser" finished-at="2022-03-16T17:17:42 IST" duration-ms="30998" status="PASS">
+        <test-method is-config="true" signature="launchTheBrowser()[pri:0, instance:com.crm.ContactsTest.CreateContactWithLeadSourceTest@5acf93bb]" started-at="2022-03-17T11:47:32 IST" name="launchTheBrowser" finished-at="2022-03-17T11:47:43 IST" duration-ms="10947" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[====Browser launch sucessful=====]]>
             </line>
           </reporter-output>
         </test-method> <!-- launchTheBrowser -->
-        <test-method is-config="true" signature="login()[pri:0, instance:com.crm.ContactsTest.CreateContactWithLeadSourceTest@5acf93bb]" started-at="2022-03-16T17:17:42 IST" name="login" finished-at="2022-03-16T17:18:01 IST" duration-ms="18233" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:com.crm.ContactsTest.CreateContactWithLeadSourceTest@5acf93bb]" started-at="2022-03-17T11:47:43 IST" name="login" finished-at="2022-03-17T11:47:50 IST" duration-ms="7003" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[====Login sucessful=====]]>
             </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="createContactWithLeadSourceTest()[pri:0, instance:com.crm.ContactsTest.CreateContactWithLeadSourceTest@5acf93bb]" started-at="2022-03-16T17:18:01 IST" name="createContactWithLeadSourceTest" finished-at="2022-03-16T17:18:26 IST" duration-ms="25666" status="FAIL">
+        <test-method signature="createContactWithLeadSourceTest()[pri:0, instance:com.crm.ContactsTest.CreateContactWithLeadSourceTest@5acf93bb]" started-at="2022-03-17T11:47:50 IST" name="createContactWithLeadSourceTest" finished-at="2022-03-17T11:48:06 IST" duration-ms="16029" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[null]]>
@@ -194,14 +197,14 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- createContactWithLeadSourceTest -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.crm.ContactsTest.CreateContactWithLeadSourceTest@5acf93bb]" started-at="2022-03-16T17:18:27 IST" name="logout" finished-at="2022-03-16T17:18:31 IST" duration-ms="4310" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.crm.ContactsTest.CreateContactWithLeadSourceTest@5acf93bb]" started-at="2022-03-17T11:48:07 IST" name="logout" finished-at="2022-03-17T11:48:11 IST" duration-ms="3979" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[====Logout sucessful=====]]>
             </line>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.ContactsTest.CreateContactWithLeadSourceTest@5acf93bb]" started-at="2022-03-16T17:18:31 IST" name="closeBrowser" finished-at="2022-03-16T17:18:32 IST" duration-ms="1136" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.ContactsTest.CreateContactWithLeadSourceTest@5acf93bb]" started-at="2022-03-17T11:48:11 IST" name="closeBrowser" finished-at="2022-03-17T11:48:11 IST" duration-ms="911" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[====Browser close sucessful=====]]>

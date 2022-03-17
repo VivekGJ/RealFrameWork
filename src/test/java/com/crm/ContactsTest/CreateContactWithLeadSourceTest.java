@@ -19,7 +19,7 @@ import com.crm.ObjectRepository.LoginPage;
 
 public class CreateContactWithLeadSourceTest extends BaseClass
 {
-	@Test
+	@Test(groups = "regressionSuite")
 	public void createContactWithLeadSourceTest() throws Throwable
 	{
 		
