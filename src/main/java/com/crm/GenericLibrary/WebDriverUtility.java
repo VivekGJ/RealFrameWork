@@ -286,7 +286,7 @@ public class WebDriverUtility
 	   String path = "./Screenshot/"+screenShotName+".png";
 	   File dst = new File(path);
 	   Files.copy(src, dst);
-	   return path;
+	   return dst.getAbsolutePath();
 	   
 	   
    }
