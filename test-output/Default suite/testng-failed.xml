@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.crm.DynamicPracticeTest.BookFlightSpiceJetTest">
+      <class name="com.crm.PRACTICE.DebugPracticeGen">
         <methods>
-          <include name="bookFligt"/>
+          <include name="demo"/>
         </methods>
-      </class> <!-- com.crm.DynamicPracticeTest.BookFlightSpiceJetTest -->
+      </class> <!-- com.crm.PRACTICE.DebugPracticeGen -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

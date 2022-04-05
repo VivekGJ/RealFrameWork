@@ -65,7 +65,7 @@ public class ListernerImplementationClass implements ITestListener
 		
 			e.printStackTrace();
 		}
-		test.log(Status.FAIL, methodName+"---->skipped");
+		test.log(Status.FAIL, methodName+"---->failed");
 		// it will capture the exception and log it report
 		test.log(Status.FAIL, result.getThrowable());
 		test.addScreenCaptureFromPath(path);

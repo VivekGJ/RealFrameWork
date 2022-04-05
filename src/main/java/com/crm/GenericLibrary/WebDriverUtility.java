@@ -276,7 +276,7 @@ public class WebDriverUtility
     * This method will take screeshot and store it in a folder called as SacreeShot
     * @param driver
     * @param screenShotName
- * @return 
+    * @return 
     * @throws Throwable
     */
    public String getScreenShot(WebDriver driver, String screenShotName) throws Throwable
