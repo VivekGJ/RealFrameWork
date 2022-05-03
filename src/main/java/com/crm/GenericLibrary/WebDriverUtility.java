@@ -85,6 +85,7 @@ public class WebDriverUtility
 	{
 		Select sel= new Select(element);
 		sel.selectByVisibleText(text);
+	
 	}
 	/**
 	 * This method will select the data from the dropdown using value [eg for method overloading]
@@ -105,6 +106,7 @@ public class WebDriverUtility
 	public void mouseHover(WebDriver driver, WebElement element)
 	{
 		Actions act= new Actions(driver);
+		
 		act.moveToElement(element).perform();
 		
 	}

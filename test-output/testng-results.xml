@@ -1,25 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-03T12:11:33 IST" name="Default suite" finished-at="2022-04-03T12:11:33 IST" duration-ms="308">
+  <suite started-at="2022-04-28T14:43:37 IST" name="Default suite" finished-at="2022-04-28T14:43:54 IST" duration-ms="16757">
     <groups>
     </groups>
-    <test started-at="2022-04-03T12:11:33 IST" name="Default test" finished-at="2022-04-03T12:11:33 IST" duration-ms="308">
-      <class name="com.crm.PRACTICE.DemoTest">
-        <test-method signature="test2()[pri:0, instance:com.crm.PRACTICE.DemoTest@4e096385]" started-at="2022-04-03T12:11:33 IST" name="test2" finished-at="2022-04-03T12:11:33 IST" duration-ms="22" status="PASS">
+    <test started-at="2022-04-28T14:43:37 IST" name="Default test" finished-at="2022-04-28T14:43:54 IST" duration-ms="16757">
+      <class name="com.crm.PRACTICE.IncongnitoBrowserlaunch">
+        <test-method signature="incongitoBrowser()[pri:0, instance:com.crm.PRACTICE.IncongnitoBrowserlaunch@49912c99]" started-at="2022-04-28T14:43:37 IST" name="incongitoBrowser" finished-at="2022-04-28T14:43:54 IST" duration-ms="16653" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method signature="test1()[pri:1, instance:com.crm.PRACTICE.DemoTest@4e096385]" started-at="2022-04-03T12:11:33 IST" name="test1" finished-at="2022-04-03T12:11:33 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method signature="test3()[pri:3, instance:com.crm.PRACTICE.DemoTest@4e096385]" started-at="2022-04-03T12:11:33 IST" name="test3" finished-at="2022-04-03T12:11:33 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test3 -->
-      </class> <!-- com.crm.PRACTICE.DemoTest -->
+        </test-method> <!-- incongitoBrowser -->
+      </class> <!-- com.crm.PRACTICE.IncongnitoBrowserlaunch -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

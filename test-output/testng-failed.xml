@@ -6,6 +6,7 @@
       <class name="com.crm.PRACTICE.DebugPracticeGen">
         <methods>
           <include name="demo"/>
+          
         </methods>
       </class> <!-- com.crm.PRACTICE.DebugPracticeGen -->
     </classes>
