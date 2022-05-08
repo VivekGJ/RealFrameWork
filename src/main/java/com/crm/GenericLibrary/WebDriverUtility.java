@@ -273,6 +273,7 @@ public class WebDriverUtility
 		  }
 	  }
 	  
+	  
    }
    /**
     * This method will take screeshot and store it in a folder called as SacreeShot
@@ -312,6 +313,26 @@ public class WebDriverUtility
 	   int y = element.getLocation().getY();
 	   js.executeScript("window.scrollBy(0,"+y+")" , element );
 	   //js.executeScript("argument[0].scrollIntoView()", element);
+   }
+   /**
+    * By the help of this method we can custom the wait
+    * @param element
+    * @throws Throwable
+    */
+   public void customWait(WebElement element) throws Throwable
+   {
+	   int count=0;
+	   while(count<20)
+	   {
+		   try {
+			   element.click();
+		   }
+		   catch (Exception e) 
+		   {
+			Thread.sleep(1000);
+			count++;
+		}
+	   }
    }
    
   
