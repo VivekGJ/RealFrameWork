@@ -13,7 +13,9 @@ public class SampleTest
     public void demoTest()
     {
         WebDriverManager.chromedriver().setup();
-        WebDriver driver = new ChromeDriver();
+        ChromeOptions option = new ChromeOptions();
+        option.addArgument("--incognito");
+        WebDriver driver = new ChromeDriver(option);
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get("https://ui.cogmento.com/");
